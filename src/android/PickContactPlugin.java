@@ -146,7 +146,7 @@ public class PickContactPlugin extends CordovaPlugin {
         }
       }
     } catch (Exception e) {
-      this.callbackContext.sendPluginResult(new PluginResult(PluginResult.Status.ERROR, PARSING_CONTACT_FAILED));
+      e.printStackTrace();
     }
   }
 }
