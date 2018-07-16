@@ -1,6 +1,7 @@
 package com.kolwit.cordova;
 
 import android.app.Activity;
+import android.os.Bundle;
 import android.content.ContentResolver;
 import android.content.Context;
 import android.content.Intent;
